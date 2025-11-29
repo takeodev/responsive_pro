@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const kTxtAppName = 'Exemplo Responsive Plus';
+const kTxtAppName = 'Exemplo Responsive Pro';
 const kTxtUrl = 'https://www.takeodev.com/';
 const kTxtPresentation = 'Olá! Eu sou o Takeo 👋';
 const kTxtProfession = 'Desenvolvedor Full-stack / Flutter';

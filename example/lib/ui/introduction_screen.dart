@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:responsive_plus/responsive_plus.dart';
-import 'package:responsive_plus_example/brain/constants.dart';
-import 'package:responsive_plus_example/ui/profile_image.dart';
-import 'package:responsive_plus_example/widgets/style_button.dart';
+import 'package:responsive_pro/responsive_pro.dart';
+import 'package:responsive_pro_example/brain/constants.dart';
+import 'package:responsive_pro_example/ui/profile_image.dart';
+import 'package:responsive_pro_example/widgets/style_button.dart';
 
 class IntroductionScreen extends StatelessWidget {
   const IntroductionScreen({super.key});

@@ -1,11 +1,11 @@
-# Responsive Plus - Exemplo
+# Responsive Pro - Exemplo
 
-Exemplo de integração com o pacote `responsive_plus`.
+Exemplo de integração com o pacote `responsive_pro`.
 
 ---
 
 ## 🎯 Funcionalidades
-O objetivo do **responsive_plus** é simplificar a criação de interfaces
+O objetivo do **responsive_pro** é simplificar a criação de interfaces
 adaptáveis, permitindo:
 
 -   Ajuste automático de tamanho de fontes

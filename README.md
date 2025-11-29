@@ -1,8 +1,8 @@
-# responsive_plus
+# responsive_pro
 
-[![pub package](https://img.shields.io/pub/v/responsive_plus?color=blue)](https://pub.dev/packages/responsive_plus)
-[![likes](https://img.shields.io/pub/likes/responsive_plus)](https://pub.dev/packages/responsive_plus/score)
-[![pub points](https://img.shields.io/pub/points/responsive_plus)](https://pub.dev/packages/responsive_plus/score)
+[![pub package](https://img.shields.io/pub/v/responsive_pro?color=blue)](https://pub.dev/packages/responsive_pro)
+[![likes](https://img.shields.io/pub/likes/responsive_pro)](https://pub.dev/packages/responsive_pro/score)
+[![pub points](https://img.shields.io/pub/points/responsive_pro)](https://pub.dev/packages/responsive_pro/score)
 
 <div align="center">
   <a href="https://www.takeodev.com/">
@@ -12,7 +12,7 @@
 
 ---
 
-**responsive_plus** é um plugin Flutter 100% Dart que fornece utilidades
+**responsive_pro** é um plugin Flutter 100% Dart que fornece utilidades
 avançadas de responsividade, escalonamento de fonte e adaptação
 automática de layouts para todas as plataformas suportadas pelo Flutter
 (Android, iOS, Web, Windows, macOS e Linux).
@@ -43,7 +43,7 @@ automática de layouts para todas as plataformas suportadas pelo Flutter
 
 ## <span id="1-sobre"></span> 🎯 Sobre
 
-O objetivo do **responsive_plus** é simplificar a criação de interfaces
+O objetivo do **responsive_pro** é simplificar a criação de interfaces
 adaptáveis, permitindo:
 
 -   Ajuste automático de tamanho de fontes
@@ -62,7 +62,7 @@ No `pubspec.yaml`:
 
 ``` yaml
 dependencies:
-  responsive_plus: ^1.0.0+1
+  responsive_pro: ^1.0.0+1
 ```
 
 Execute:
@@ -78,7 +78,7 @@ flutter pub get
 ### <span id="3-1-importacao"></span> Importação
 
 ``` dart
-import 'package:responsive_plus/responsive_plus.dart';
+import 'package:responsive_pro/responsive_pro.dart';
 ```
 
 ### <span id="3-2-bases"></span> 📚 Bases de Redimensionamento

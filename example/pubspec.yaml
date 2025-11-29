@@ -1,6 +1,6 @@
-name: responsive_plus_example
-description: "Exemplo de Utilização do Pacote responsive_plus."
-version: 1.0.1+1
+name: responsive_pro_example
+description: "Exemplo de Utilização do Pacote responsive_pro."
+version: 1.0.2+2
 
 environment:
   sdk: ^3.10.1
@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  responsive_plus:
+  responsive_pro:
     path: ../
   url_launcher: ^6.3.2
 

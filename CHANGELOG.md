@@ -1,9 +1,10 @@
-# Changelog Responsive Plus (by Takeo)
+# Changelog Responsive Pro (by Takeo)
 
 ## 1.0.2+2
 
 - [Remove] Funcionalidade "integration_test".
 - [Fix] Pasta Assets do App de Exemplo.
+- [Refactor] Renomeado Pacote ("responsive_plus" => "responsive_pro")
 
 ## 1.0.1+1
 

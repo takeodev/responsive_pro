@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_plus_example/brain/constants.dart';
-import 'package:responsive_plus_example/ui/introduction_screen.dart';
+import 'package:responsive_pro_example/brain/constants.dart';
+import 'package:responsive_pro_example/ui/introduction_screen.dart';
 
 void main() {
   runApp(const ExampleApp());

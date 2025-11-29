@@ -191,7 +191,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.5"
-  responsive_plus:
+  responsive_pro:
     dependency: "direct main"
     description:
       path: ".."

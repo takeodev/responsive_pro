@@ -1,8 +1,8 @@
-name: responsive_plus
-description: "Responsive Plus — Responsividade avançada para Flutter."
-version: 1.0.1+1
+name: responsive_pro
+description: "Responsive Pro — Responsividade avançada para Flutter."
+version: 1.0.2+2
 
-repository: https://github.com/takeodev/responsive_plus
+repository: https://github.com/takeodev/responsive_pro
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.3.0"
@@ -20,4 +20,4 @@ flutter:
   plugin:
     platforms:
       dart:
-        pluginClass: ResponsivePlus
+        pluginClass: ResponsivePro

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_plus/responsive_plus.dart';
-import 'package:responsive_plus_example/brain/constants.dart';
+import 'package:responsive_pro/responsive_pro.dart';
+import 'package:responsive_pro_example/brain/constants.dart';
 
 class ProfileImage extends StatelessWidget {
   const ProfileImage({super.key});

@@ -40,7 +40,7 @@ import 'package:flutter/material.dart';
 
 /// ======================================================================================
 /// Arquivo         : src/responsive.dart
-/// Projeto         : Responsive Plus
+/// Projeto         : Responsive Pro
 /// Plataforma      : Android
 /// Autor           : Fernando Takeo Miyaji
 /// ======================================================================================
@@ -77,7 +77,7 @@ class Responsive {
 
     diagUnit =
         sqrt(mq.size.width * mq.size.width + mq.size.height * mq.size.height) /
-            100;
+        100;
 
     // equilíbrio entre altura e largura
     mixUnit = (hUnit + wUnit) / 2;
