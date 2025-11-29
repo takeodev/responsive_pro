@@ -1,5 +1,9 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.0.3+3
+
+- [Improve] Atualizado README.
+
 ## 1.0.2+2
 
 - [Remove] Funcionalidade "integration_test".

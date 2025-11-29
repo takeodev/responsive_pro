@@ -62,10 +62,16 @@ No `pubspec.yaml`:
 
 ``` yaml
 dependencies:
-  responsive_pro: ^1.0.0+1
+  responsive_pro: ^latest
 ```
 
-Execute:
+Ou Execute:
+
+``` bash
+flutter pub add responsive_pro
+```
+
+Em seguida Execute:
 
 ``` bash
 flutter pub get
