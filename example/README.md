@@ -22,7 +22,7 @@ de tela sem depender de bibliotecas pesadas.
 
 <p align="center">
   <a href="https://github.com/takeodev">
-    <img src="https://avatars.githubusercontent.com/u/50700409?v=4" width="120" height="120">
+    <img src="https://www.takeodev.com/files/foto_takeo.png" width="120" height="120">
   </a>
   <br>
   <b>Fernando Takeo Miyaji</b>

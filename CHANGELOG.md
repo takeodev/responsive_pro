@@ -1,5 +1,9 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.0.4+4
+
+- [Improve] Atualizado CHANGELOG.
+
 ## 1.0.3+3
 
 - [Improve] Atualizado README.

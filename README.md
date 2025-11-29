@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://www.takeodev.com/">
-    <img src="https://drive.google.com/file/d/10Ud-FDw5WLX7NzpARlY-T7NfGRaA3geo/view?usp=drive_link" alt="Desenvolvedor Takeo" height="80">
+    <img src="https://www.takeodev.com/files/logo_takeo.png" alt="Desenvolvedor Takeo" height="80">
   </a>
 </div>
 
@@ -171,7 +171,7 @@ if (context.isUltraWide) ... // Verifica se é Ultra Wide
 
 <p align="center">
   <a href="https://github.com/takeodev">
-    <img src="https://avatars.githubusercontent.com/u/50700409?v=4" width="120" height="120">
+    <img src="https://www.takeodev.com/files/foto_takeo.png" width="120" height="120">
   </a>
   <br>
   <b>Fernando Takeo Miyaji</b>
