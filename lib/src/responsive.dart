@@ -206,8 +206,8 @@ extension ResponsiveExt on BuildContext {
   Responsive get _r => Responsive.of(this);
 
   // Medidas percentuais
-  double height(double v) => _r.height(v);
-  double width(double v) => _r.width(v);
+  double h(double v) => _r.height(v);
+  double w(double v) => _r.width(v);
 
   // Medidas inteligentes
   double short(double v) => _r.short(v);

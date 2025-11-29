@@ -1,5 +1,11 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.1.0
+
+- [Improve] Alterada Funcionalidade de Altura para evitar conflitos ("_~~context.height(v)~~_" > "_context.h(v)_").
+- [Improve] Alterada Funcionalidade de Largura para evitar conflitos ("_~~context.width(v)~~_" > "_context.w(v)_").
+- [Improve] Atualizado **README**.
+
 ## 1.0.7
 
 - [Fix] Platform support no **pubspec.yaml**.

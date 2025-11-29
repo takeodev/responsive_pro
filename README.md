@@ -91,16 +91,16 @@ import 'package:responsive_pro/responsive_pro.dart';
 
 Substitua qualquer valor **double** que necesside de responsividade por:
 
-| Como Utilizar       | Base                          | Recomendação de Uso             |
-|---------------------|-------------------------------|---------------------------------|
-| `context.height(v)` | Altura da Tela                | Dimensão Vertical               |
-| `context.width(v)`  | Largura da Tela               | Dimensão Horizontal             |
-| `context.short(v)`  | Menor Lado da Tela            | Texto, ícones, paddings         |
-| `context.long(v)`   | Maior Lado da Tela            | Efeitos Tela Cheia (fullscreen) |
-| `context.diag(v)`   | Diagonal da Tela (Pitágoras)  | Proportional ao Dispositivo     |
-| `context.mix(v)`    | Média da Altura x Largura     | Padding, UI Balanceado          |
-| `context.font(v)`   | Menor Lado + Accessibilidade  | Texto Responsivo                |
-| `context.icon(v)`   | Menor Lado + Accessibilidade  | Ícone Responsivo                |
+| Como Utilizar      | Base                          | Recomendação de Uso             |
+|--------------------|-------------------------------|---------------------------------|
+| `context.h(v)`     | Altura da Tela                | Dimensão Vertical               |
+| `context.w(v)`     | Largura da Tela               | Dimensão Horizontal             |
+| `context.short(v)` | Menor Lado da Tela            | Texto, ícones, paddings         |
+| `context.long(v)`  | Maior Lado da Tela            | Efeitos Tela Cheia (fullscreen) |
+| `context.diag(v)`  | Diagonal da Tela (Pitágoras)  | Proportional ao Dispositivo     |
+| `context.mix(v)`   | Média da Altura x Largura     | Padding, UI Balanceado          |
+| `context.font(v)`  | Menor Lado + Accessibilidade  | Texto Responsivo                |
+| `context.icon(v)`  | Menor Lado + Accessibilidade  | Ícone Responsivo                |
 
 ---
 
@@ -110,8 +110,8 @@ Substitua qualquer valor **double** que necesside de responsividade por:
 
 ``` dart
 Container(
-  width: context.width(80),
-  height: context.height(20),
+  width: context.w(80),
+  height: context.h(20),
   child: ...
 );
 ```
