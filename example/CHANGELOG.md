@@ -1,8 +1,12 @@
 # Changelog Responsive Pro Example (by Takeo)
 
+## 1.0.4+4
+
+- [Improve] Atualizado README.
+
 ## 1.0.3+3
 
-- [Improve] Atualizado CHANGELOG.
+- [Improve] Atualizado README.
 
 ## 1.0.2+2
 

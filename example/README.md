@@ -21,7 +21,7 @@ de tela sem depender de bibliotecas pesadas.
 ## 👨‍💻 Desenvolvedor
 
 <p align="center">
-  <a href="https://github.com/takeodev">
+  <a href="https://www.takeodev.com/">
     <img src="https://www.takeodev.com/files/foto_takeo.png" width="120" height="120">
   </a>
   <br>

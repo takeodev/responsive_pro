@@ -170,7 +170,7 @@ if (context.isUltraWide) ... // Verifica se é Ultra Wide
 ## <span id="6-desenvolvedor"></span> 👨‍💻 Desenvolvedor
 
 <p align="center">
-  <a href="https://github.com/takeodev">
+  <a href="https://www.takeodev.com/">
     <img src="https://www.takeodev.com/files/foto_takeo.png" width="120" height="120">
   </a>
   <br>
