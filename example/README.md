@@ -1,0 +1,36 @@
+# Responsive Plus - Exemplo
+
+Exemplo de integração com o pacote `responsive_plus`.
+
+---
+
+## 🎯 Funcionalidades
+O objetivo do **responsive_plus** é simplificar a criação de interfaces
+adaptáveis, permitindo:
+
+-   Ajuste automático de tamanho de fontes
+-   Cálculo de proporções responsivas
+-   Adaptação a telas pequenas, médias e grandes
+-   Uso consistente em mobile, web e desktop
+
+Ideal para projetos que precisam se comportar bem em diferentes tamanhos
+de tela sem depender de bibliotecas pesadas.
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+<p align="center">
+  <a href="https://github.com/takeodev">
+    <img src="https://avatars.githubusercontent.com/u/50700409?v=4" width="120" height="120">
+  </a>
+  <br>
+  <b>Fernando Takeo Miyaji</b>
+</p>
+
+---
+
+## ⭐ Contribuições
+
+Pull Requests são sempre Bem Vindos!  
+Se você gostou desse package, considere dar um *Like* no **pub.dev** ou no **[GitHub](https://github.com/takeodev)**.
