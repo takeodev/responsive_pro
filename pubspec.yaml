@@ -2,6 +2,7 @@ name: responsive_plus
 description: "Responsive Plus — Responsividade avançada para Flutter."
 version: 1.0.1+1
 
+repository: https://github.com/takeodev/responsive_plus
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.3.0"
@@ -20,5 +21,3 @@ flutter:
     platforms:
       dart:
         pluginClass: ResponsivePlus
-  assets:
-    - assets/

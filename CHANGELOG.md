@@ -1,5 +1,10 @@
 # Changelog Responsive Plus (by Takeo)
 
+## 1.0.2+2
+
+- [Remove] Funcionalidade "integration_test".
+- [Fix] Pasta Assets do App de Exemplo.
+
 ## 1.0.1+1
 
 - [Release] Primeira Release.
