@@ -1,8 +1,9 @@
 name: responsive_pro
-description: "Responsive Pro — Responsividade avançada para Flutter."
-version: 1.0.6
+description: "Responsive Pro — Responsividade avançada para Flutter, escalonamento de fonte e adaptação automática de layouts para todas as plataformas suportadas pelo Flutter."
+version: 1.0.7
 
 repository: https://github.com/takeodev/responsive_pro
+
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.3.0"
@@ -14,10 +15,3 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-flutter:
-  uses-material-design: false
-  plugin:
-    platforms:
-      dart:
-        pluginClass: ResponsivePro

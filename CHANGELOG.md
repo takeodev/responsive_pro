@@ -1,5 +1,9 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.0.7
+
+- [Fix] Platform support no **pubspec.yaml**.
+
 ## 1.0.6
 
 - [Fix] Versionamento no **pubspec.yaml**.

@@ -4,7 +4,8 @@ const kTxtAppName = 'Exemplo Responsive Pro';
 const kTxtUrl = 'https://www.takeodev.com/';
 const kTxtPresentation = 'Olá! Eu sou o Takeo 👋';
 const kTxtProfession = 'Desenvolvedor Full-stack / Flutter';
-const kTxtAboutMe = 'Sou Desenvolvedor Mobile / Full-stack com foco em Flutter e mais de 10 anos de experiência criando soluções completas para web, mobile e varejo. Nos últimos anos, desenvolvi aplicativos Android e Web em Flutter, APIs em Laravel, integrações com Smart POS (PagSeguro) e sistemas de e-commerce/checkout de alta performance.\nTambém possuo experiência sólida com bancos de dados MariaDB/MySQL, SQL Server e Oracle, além de desenvolvimento Desktop em Delphi.\n\nGosto de resolver problemas reais, transformar ideias em produtos consistentes e trabalhar com código limpo, arquitetura bem pensada e entregas contínuas.\nSou movido por desafios, aprendizado constante e melhoria contínua — tanto técnica quanto pessoal.';
+const kTxtAboutMe =
+    'Sou Desenvolvedor Mobile / Full-stack com foco em Flutter e mais de 10 anos de experiência criando soluções completas para web, mobile e varejo. Nos últimos anos, desenvolvi aplicativos Android e Web em Flutter, APIs em Laravel, integrações com Smart POS (PagSeguro) e sistemas de e-commerce/checkout de alta performance.\nTambém possuo experiência sólida com bancos de dados MariaDB/MySQL, SQL Server e Oracle, além de desenvolvimento Desktop em Delphi.\n\nGosto de resolver problemas reais, transformar ideias em produtos consistentes e trabalhar com código limpo, arquitetura bem pensada e entregas contínuas.\nSou movido por desafios, aprendizado constante e melhoria contínua — tanto técnica quanto pessoal.';
 
 const double kSizeIcon = 35.0;
 const double kSizeIcon1 = 30.0;
