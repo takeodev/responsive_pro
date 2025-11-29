@@ -186,14 +186,17 @@ class Responsive {
   // BREAKPOINTS
   // -----------------------------------------------------------
 
-  bool get isMobile => mq.size.shortestSide < 600;
+  bool get isMobile => mq.size.width < 600;
 
-  bool get isTablet =>
-      mq.size.shortestSide >= 600 && mq.size.shortestSide < 900;
+  bool get isTablet => mq.size.width >= 600 && mq.size.width < 1024;
 
-  bool get isDesktop => mq.size.width >= 900 && mq.size.width < 1600;
+  bool get isDesktop => mq.size.width >= 1024 && mq.size.width < 1600;
 
   bool get isUltraWide => mq.size.width >= 1600;
+
+  bool get isPortrait => mq.orientation == Orientation.portrait;
+
+  bool get isLandscape => mq.orientation == Orientation.landscape;
 }
 
 /// EXTENSÕES PARA O CONTEXT
@@ -225,4 +228,6 @@ extension ResponsiveExt on BuildContext {
   bool get isDesktop => _r.isDesktop;
   bool get isUltraWide => _r.isUltraWide;
   bool get isLarge => _r.isDesktop || _r.isUltraWide;
+  bool get isPortrait => _r.isPortrait;
+  bool get isLandscape => _r.isLandscape;
 }

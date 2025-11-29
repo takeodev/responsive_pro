@@ -154,6 +154,9 @@ if (context.isMobile) ... // Verifica se é Celular / Mobile
 if (context.isTablet) ... // Verifica se é Tablet
 if (context.isDesktop) ... // Verifica se é Desktop
 if (context.isUltraWide) ... // Verifica se é Ultra Wide
+if (context.isLarge) ... // Verifica se é uma Tela Larga (Destktop >)
+if (context.isPortrait) ... // Verifica se está em Modo Retrato
+if (context.isLandscape) ... // Verifica se está em Modo Paisagem
 ```
 
 ---

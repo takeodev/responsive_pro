@@ -1,5 +1,11 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.1.1
+
+- [Improve] Ajuste nas Dimensões para Tipos de Dispositivos, **Utilitários**.
+- [Improve] Atualizado **README**.
+- [Add] Utilitários para Verificar Rotação da Tela **context.isPortrait** e **context.isLandscape**.
+
 ## 1.1.0
 
 - [Improve] Alterada Funcionalidade de Altura para evitar conflitos ("_~~context.height(v)~~_" > "_context.h(v)_").
