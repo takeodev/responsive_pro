@@ -62,7 +62,7 @@ No `pubspec.yaml`:
 
 ``` yaml
 dependencies:
-  responsive_pro: ^1.2.1
+  responsive_pro: ^1.2.2
 ```
 
 Ou Execute:
@@ -99,7 +99,6 @@ Substitua qualquer valor **double** que necesside de responsividade por:
 | `context.long(v)`  | Maior Lado da Tela           | Efeitos Tela Cheia (fullscreen) |
 | `context.diag(v)`  | Diagonal da Tela (Pitágoras) | Proportional ao Dispositivo     |
 | `context.mix(v)`   | Média da Altura x Largura    | Padding, UI Balanceado          |
-| `context.space(v)` | Média da Altura x Largura    | Padding, SizedBox de Espaço     |
 | `context.font(v)`  | Menor Lado + Accessibilidade | Texto Responsivo                |
 | `context.icon(v)`  | Menor Lado + Accessibilidade | Ícone Responsivo                |
 

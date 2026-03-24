@@ -1,5 +1,10 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.2.2
+
+- [Fix] Problema com o "_context.mix()_", erroneamente alterado.
+- [Improve] Atualizado **README**.
+
 ## 1.2.1
 
 - [Improve] Atualizado **README**.

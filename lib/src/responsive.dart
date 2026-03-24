@@ -177,18 +177,7 @@ class Responsive {
   /// ❌ Evitar quando:
   ///   - Precisa precisão absoluta com base em apenas uma dimensão.
   ///   - Telas extremamente assimétricas (monitor ultrawide + responsive design).
-  double mix(double v) {
-    double base = mixUnit * v;
-
-    if (isUltraWide) {
-      base *= 0.8;
-    } else if (isDesktop) {
-      base *= 0.9;
-    }
-
-    // Limites Seguros (Reduz Risco de Overflow ou Micro Espaço)
-    return base.clamp(4.0, 32.0);
-  }
+  double mix(double v) => mixUnit * v;
 
   // -----------------------------------------------------------
   //  ESCALAS ESPECIALIZADAS
