@@ -1,5 +1,10 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.2.3
+
+- [Fix] Problema com o "_context.icon()_", erroneamente alterado.
+- [Improve] Atualizado **README**.
+
 ## 1.2.2
 
 - [Fix] Problema com o "_context.mix()_", erroneamente alterado.
@@ -11,8 +16,8 @@
 
 ## 1.2.0
 
-- [Add] Fator de Segurança para Fontes e Ícones (Reduz Risco de Overflow).
-- [Improve] Funções: "_context.icon()_", "_context.font()_", "_context.diag()_".
+- [Add] Fator de Segurança para Fontes (Reduz Risco de Overflow).
+- [Improve] Funções: "_context.font()_" e "_context.diag()_".
 - [Improve] Atualizado **README**.
 
 ## 1.1.1

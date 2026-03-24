@@ -62,7 +62,7 @@ No `pubspec.yaml`:
 
 ``` yaml
 dependencies:
-  responsive_pro: ^1.2.2
+  responsive_pro: ^1.2.3
 ```
 
 Ou Execute:

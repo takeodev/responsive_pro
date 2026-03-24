@@ -200,21 +200,17 @@ class Responsive {
     return scaleFactor.scale(clamped);
   }
 
-  /// Ícones responsivos.
-  double icon(double v) {
-    final base = shortUnit * (v * 0.85) * _deviceFactor;
-
-    // Limites Seguros (Reduz Risco de Overflow ou Micro Ícone)
-    return base.clamp(12.0, 28.0);
-  }
-
-  /// Fator de Segurança para Fontes e Ícones (Reduz Risco de Overflow)
+  /// Fator de Segurança para Fontes (Reduz Risco de Overflow)
   double get _deviceFactor {
     if (isUltraWide) return 0.75;
     if (isDesktop) return 0.85;
     if (isTablet) return 0.95;
     return 1.0; // isMobile
   }
+
+  /// Ícones responsivos.
+  /// Levemente menores que o tamanho de fonte equivalente.
+  double icon(double v) => scaleFactor.scale(shortUnit * (v * 0.85));
 
   // -----------------------------------------------------------
   // BREAKPOINTS
