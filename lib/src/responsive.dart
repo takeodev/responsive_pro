@@ -50,11 +50,13 @@ class Responsive {
 
   // 1% da altura
   late final double hUnit;
+
   // 1% da largura
   late final double wUnit;
 
   // 1% do menor lado (ideal para fontes e ícones)
   late final double shortUnit;
+
   // 1% do maior lado
   late final double longUnit;
 
@@ -144,6 +146,9 @@ class Responsive {
   /// Retorna um valor baseado na **diagonal da tela** (pitagórica).
   ///
   /// ✔ Uso recomendado:
+  ///   - Cards Grandes
+  ///   - Componentes de UI (não imagem)
+  ///   - Elementos que quebram layout
   ///   - UI proporcional entre dispositivos de tamanhos MUITO diferentes.
   ///   - Apps que precisam manter proporção em relação ao tamanho real da tela.
   ///   - Ajuste universal de fonte, ícones grandes, banners.
@@ -151,7 +156,17 @@ class Responsive {
   /// ❌ Evitar quando:
   ///   - Layouts muito sensíveis (formularios, listas, tabelas).
   ///   - Web: monitores grandes podem distorcer a escala.
-  double diag(double v) => diagUnit * v;
+  double diag(double v) {
+    double base = diagUnit * v;
+
+    if (isUltraWide) {
+      base *= 0.75;
+    } else if (isDesktop) {
+      base *= 0.85;
+    }
+
+    return base;
+  }
 
   /// Retorna uma média entre **altura e largura**.
   ///
@@ -162,7 +177,18 @@ class Responsive {
   /// ❌ Evitar quando:
   ///   - Precisa precisão absoluta com base em apenas uma dimensão.
   ///   - Telas extremamente assimétricas (monitor ultrawide + responsive design).
-  double mix(double v) => mixUnit * v;
+  double mix(double v) {
+    double base = mixUnit * v;
+
+    if (isUltraWide) {
+      base *= 0.8;
+    } else if (isDesktop) {
+      base *= 0.9;
+    }
+
+    // Limites Seguros (Reduz Risco de Overflow ou Micro Espaço)
+    return base.clamp(4.0, 32.0);
+  }
 
   // -----------------------------------------------------------
   //  ESCALAS ESPECIALIZADAS
@@ -176,11 +202,30 @@ class Responsive {
   ///
   /// Evitar:
   /// - Não há contraindicações reais.
-  double font(double v) => scaleFactor.scale(shortUnit * v);
+  double font(double v) {
+    final base = shortUnit * v * _deviceFactor;
+
+    // Limites Seguros (Reduz Risco de Overflow ou Micro Fonte)
+    final clamped = base.clamp(10.0, 22.0);
+
+    return scaleFactor.scale(clamped);
+  }
 
   /// Ícones responsivos.
-  /// Levemente menores que o tamanho de fonte equivalente.
-  double icon(double v) => scaleFactor.scale(shortUnit * (v * 0.85));
+  double icon(double v) {
+    final base = shortUnit * (v * 0.85) * _deviceFactor;
+
+    // Limites Seguros (Reduz Risco de Overflow ou Micro Ícone)
+    return base.clamp(12.0, 28.0);
+  }
+
+  /// Fator de Segurança para Fontes e Ícones (Reduz Risco de Overflow)
+  double get _deviceFactor {
+    if (isUltraWide) return 0.75;
+    if (isDesktop) return 0.85;
+    if (isTablet) return 0.95;
+    return 1.0; // isMobile
+  }
 
   // -----------------------------------------------------------
   // BREAKPOINTS
@@ -200,34 +245,43 @@ class Responsive {
 }
 
 /// EXTENSÕES PARA O CONTEXT
-/// API super curta:
-/// context.font(4)
-/// context.h(20)
-/// context.space(2)
-///
+/// Exemplos de Uso:
+/// - context.font(4)
+/// - context.h(20)
 extension ResponsiveExt on BuildContext {
   Responsive get _r => Responsive.of(this);
 
-  // Medidas percentuais
+  // Medidas Percentuais
   double h(double v) => _r.height(v);
+
   double w(double v) => _r.width(v);
 
-  // Medidas inteligentes
+  // Medidas Inteligentes
   double short(double v) => _r.short(v);
+
   double long(double v) => _r.long(v);
+
   double diag(double v) => _r.diag(v);
+
   double mix(double v) => _r.mix(v);
 
-  // Tipografia / Espaços / Ícones
+  // Tipografia / Ícones
   double font(double v) => _r.font(v);
+
   double icon(double v) => _r.icon(v);
 
   // Breakpoints
   bool get isMobile => _r.isMobile;
+
   bool get isTablet => _r.isTablet;
+
   bool get isDesktop => _r.isDesktop;
+
   bool get isUltraWide => _r.isUltraWide;
+
   bool get isLarge => _r.isDesktop || _r.isUltraWide;
+
   bool get isPortrait => _r.isPortrait;
+
   bool get isLandscape => _r.isLandscape;
 }

@@ -2,6 +2,8 @@ name: responsive_pro_example
 description: "Exemplo de Utilização do Pacote responsive_pro."
 version: 1.0.5
 
+publish_to: 'none'
+
 environment:
   sdk: ^3.10.1
 

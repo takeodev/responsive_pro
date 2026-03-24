@@ -1,5 +1,11 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.2.0
+
+- [Add] Fator de Segurança para Fontes e Ícones (Reduz Risco de Overflow).
+- [Improve] Funções: "_context.icon()_", "_context.font()_", "_context.diag()_".
+- [Improve] Atualizado **README**.
+
 ## 1.1.1
 
 - [Improve] Ajuste nas Dimensões para Tipos de Dispositivos, **Utilitários**.
@@ -8,8 +14,9 @@
 
 ## 1.1.0
 
-- [Improve] Alterada Funcionalidade de Altura para evitar conflitos ("_~~context.height(v)~~_" > "_context.h(v)_").
-- [Improve] Alterada Funcionalidade de Largura para evitar conflitos ("_~~context.width(v)~~_" > "_context.w(v)_").
+- [Improve] Ajustes para Evitar Conflitos.
+- [Improve] Alterada Funcionalidade de Altura ("_~~context.height(v)~~_" > "_context.h(v)_").
+- [Improve] Alterada Funcionalidade de Largura ("_~~context.width(v)~~_" > "_context.w(v)_").
 - [Improve] Atualizado **README**.
 
 ## 1.0.7
