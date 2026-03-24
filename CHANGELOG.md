@@ -1,5 +1,9 @@
 # Changelog Responsive Pro (by Takeo)
 
+## 1.2.1
+
+- [Improve] Atualizado **README**.
+
 ## 1.2.0
 
 - [Add] Fator de Segurança para Fontes e Ícones (Reduz Risco de Overflow).
