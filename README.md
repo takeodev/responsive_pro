@@ -4,11 +4,11 @@
 [![likes](https://img.shields.io/pub/likes/responsive_pro)](https://pub.dev/packages/responsive_pro/score)
 [![pub points](https://img.shields.io/pub/points/responsive_pro)](https://pub.dev/packages/responsive_pro/score)
 
-<div style="justify-content: center; align-items: center;">
+<p align="center">
   <a href="https://www.takeodev.com/">
-    <img src="https://www.takeodev.com/files/logo_takeo.png" alt="Desenvolvedor Takeo" height="80">
+    <img src="https://www.takeodev.com/files/logo_takeo.png" alt="Desenvolvedor Takeo" width="120">
   </a>
-</div>
+</p>
 
 ---
 
@@ -62,7 +62,7 @@ No `pubspec.yaml`:
 
 ``` yaml
 dependencies:
-  responsive_pro: ^1.2.0
+  responsive_pro: ^1.2.1
 ```
 
 Ou Execute:
@@ -174,7 +174,7 @@ if (context.isLandscape) ... // Verifica se está em Modo Paisagem
 
 ## <span id="6-desenvolvedor"></span> 👨‍💻 Desenvolvedor
 
-<p style="text-align:center;">
+<p align="center">
   <a href="https://www.takeodev.com/">
     <img src="https://www.takeodev.com/files/foto_takeo.png" width="120" height="120" alt="Foto de Perfil">
   </a>
@@ -186,7 +186,7 @@ if (context.isLandscape) ... // Verifica se está em Modo Paisagem
 
 ## <span id="7-licenca"></span> ⚖️ Licença
 
-MIT © 2025 **Fernando Takeo Miyaji**
+MIT © 2026 **Fernando Takeo Miyaji**
 
 ---
 
